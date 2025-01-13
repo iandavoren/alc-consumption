@@ -4,7 +4,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.colors
 
-data = pd.read_csv("infovishw3_verpython/data/Alcohol_Consumption_US.csv")
+data = pd.read_csv("data/Alcohol_Consumption_US.csv")
+
 
 app = dash.Dash(__name__)
 
