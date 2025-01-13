@@ -8,6 +8,7 @@ data = pd.read_csv("data/Alcohol_Consumption_US.csv")
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("US Alcohol Consumption by State"),
